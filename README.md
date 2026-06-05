@@ -2,34 +2,41 @@
 
 [![Website](https://img.shields.io/badge/Website-ksenus.ru-1a1a2e?style=flat-square&logo=google-chrome&logoColor=white)](https://ksenus.ru/) [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ktm.softwear@gmail.com)
 
-### AI Fullstack Engineer · Строю агентные системы, которые доходят до продакшена
+### Fullstack Developer · React, Node.js, PostgreSQL
 
-Строю production LLM-агенты под ключ — React-фронтенды, Node-бэкенды, multi-agent orchestration, tool/MCP integration и *harness engineering*, который делает агентов надёжными, наблюдаемыми и достаточно дешёвыми для масштаба. Не «демо-чатбот», а **автономный воркер с бюджетом.**
+Строю fullstack-приложения под ключ — React/Next.js на фронте, Node/Express на бэкенде, PostgreSQL и real-time через WebSocket. Сейчас веду **WorkChat** — платформу для учебных групп с чатом, ролями и админкой, live на [web-education.vercel.app](https://web-education.vercel.app).
 
-Один агент, который я собрал вместе с командой, сам закрывает **~70% месячной нагрузки** premium concierge-команды. Другой читает актуальные цены номеров с *любого* сайта отеля примерно за **3¢ за запрос** — после оптимизации стоимость упала в **26.5×** без потери качества.
+- 🔭 Развиваю **WorkChat** — классы, real-time чат, OAuth, роли admin / teacher / student
+- 🌱 Углубляюсь в TypeScript, WebSocket и продакшен-деплой (Vercel + Amvera)
+- ⚡ Daily driver: React · Next.js · Express · PostgreSQL · Socket.IO
 
-- 🔭 Строю агентную автоматизацию для premium concierge-сервиса
-- 🌱 Углубляюсь в context engineering, agent evaluation и cost optimization
-- ⚡ Ежедневно — AI-driven разработка в 5–10 параллельных agent sessions
-- 💬 Спрашивайте про Claude Agent SDK, LangGraph, MCP или как выжать 26× из agent pipeline
 
 ---
 
-### 🔬 Исследования и эксперименты
+### 🚀 Featured project
+
+**🤖 Concierge agent** · *production · ~70% monthly workload*
+
+Агент для premium concierge-сервиса — сам закрывает **~70%** месячной нагрузки команды: multi-agent orchestration, tool/MCP integration, harness engineering под продакшен.
+
+**🏨 Hotel price reader** · *optimization study · 26.5× cost cut*
+
+LLM-агент читает live-цены номеров с любого сайта отеля за **~3¢** за запрос. Дисциплинированное A/B-тестирование срезало стоимость в **26.5×** без потери качества.
 
 **📊 agent-regression-bench** — *evaluation harness + cost study*
 
-Как понять, что правка промпта тихо не сломала прод? Запускаешь bench. **240 scripted agent tasks** — tool-use, retrieval, multi-step workflows — pass rate, latency и token spend на каждый сценарий. Сократил eval loop с **~45 мин ручных spot-checks** до **6 мин автоматических прогонов**. Один проход context compression срезал среднюю стоимость сессии в **18×** при **97%** task pass rate.
-`Node.js` · `TypeScript` · `Claude Agent SDK` · `LangGraph` · `PostgreSQL`
+**240 scripted agent tasks** — pass rate, latency, token spend на сценарий. Eval loop: **45 мин → 6 мин**. Context compression: **18×** дешевле при **97%** task pass rate.
+
+`Claude Agent SDK` · `LangGraph` · `MCP` · `Node.js` · `TypeScript` · `PostgreSQL`
 
 ---
 
 ### 🧰 Стек
 
-**Frontend** — `JavaScript` · `TypeScript` · `React` · `Next.js`
+**Frontend** — `JavaScript` · `TypeScript` · `React` · `Next.js` · `Redux Toolkit`
 
-**Agents / LLM** — Claude Agent SDK · LangGraph · LangChain · MCP servers · RAG · context & prompt engineering · agent evals
+**Backend** — `Node.js` · `Express` · `PostgreSQL` · `Sequelize` · `WebSockets` · `JWT`
 
-**Backend** — Node.js · Express · PostgreSQL · Prisma · Redis · WebSockets
+**AI / LLM** — Claude Agent SDK · LangGraph · MCP · RAG · prompt engineering · agent evals
 
-**Infra** — Docker · Kubernetes
+**Infra** — `Docker` · `Vercel` · `Amvera`
