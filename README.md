@@ -1,4 +1,4 @@
-# Hi, I'm Niki 👋
+# Hi, I'm Nikita 👋
 
 [![Website](https://img.shields.io/badge/Website-ksenus.ru-1a1a2e?style=flat-square&logo=google-chrome&logoColor=white)](https://ksenus.ru/) [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ktm.softwear@gmail.com)
 
