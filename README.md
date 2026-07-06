@@ -4,7 +4,7 @@
 
 ### Fullstack Developer · React, Node.js, PostgreSQL, Next, Ai
 
-Строю fullstack-приложения под ключ — React/Next.js на фронте, Node/Express на бэкенде, PostgreSQL и real-time через WebSocket. Сейчас веду **WorkChat** — платформу для учебных групп с чатом, ролями и админкой, live на [https://www.my-workchat.ru](https://www.my-workchat.ru)]((/)).
+Строю fullstack-приложения под ключ — React/Next.js на фронте, Node/Express на бэкенде, PostgreSQL и real-time через WebSocket. Сейчас веду **WorkChat** — платформу для учебных групп с чатом, ролями и админкой, live на [https://my-workchat.ru](https://my-workchat.ru)]((/)).
 
 - 🔭 Развиваю **WorkChat** — классы, real-time чат, OAuth, роли admin / teacher / student
 - 🌱 Углубляюсь в TypeScript, WebSocket и продакшен-деплой (Vercel + Neon)
